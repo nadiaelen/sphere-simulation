@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TIME//DOME</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="panel">
+        <p class="eyebrow">Immersive Experience Simulation</p>
+        <h1>TIME//DOME</h1>
+        <p id="scene-text">
+          You approach the venue. The exterior glows, and the crowd begins to gather.
+        </p>
+
+        <div class="controls">
+          <button data-scene="arrival">Arrival</button>
+          <button data-scene="immersion">Immersion</button>
+          <button data-scene="exit">Exit</button>
+        </div>
+
+        <div class="reflection">
+          <h2>Reflection prompt</h2>
+          <p id="prompt-text">
+            What emotion is the venue trying to create before the show begins?
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
