@@ -9,16 +9,29 @@
   <body>
     <main class="app">
       <section class="panel">
-        <p class="eyebrow">Immersive Experience Simulation</p>
-        <h1>TIME//DOME</h1>
-        <p id="scene-text">
+        <div class="topbar">
+          <div>
+            <p class="eyebrow">Immersive Experience Simulation</p>
+            <h1>TIME//DOME</h1>
+          </div>
+
+          <button id="mode-toggle" class="toggle" type="button">
+            Mode: Normal
+          </button>
+        </div>
+
+        <div class="image-wrap">
+          <img id="scene-image" src="assets/arrival.jpg" alt="Arrival scene" />
+        </div>
+
+        <p id="scene-text" class="scene-text">
           You approach the venue. The exterior glows, and the crowd begins to gather.
         </p>
 
         <div class="controls">
-          <button data-scene="arrival">Arrival</button>
-          <button data-scene="immersion">Immersion</button>
-          <button data-scene="exit">Exit</button>
+          <button data-scene="arrival" type="button">Arrival</button>
+          <button data-scene="immersion" type="button">Immersion</button>
+          <button data-scene="exit" type="button">Exit</button>
         </div>
 
         <div class="reflection">
